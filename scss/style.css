@@ -338,23 +338,30 @@ body p {
   overflow: hidden;
   max-height: 500px;
 }
-#right #news .container h3 {
+#right #news .container .son-container h3 {
   font-size: 22px;
   margin-bottom: 15px;
 }
-#right #news .container span {
+#right #news .container .son-container span {
   font-weight: 600;
 }
-#right #news .container img {
+#right #news .container .son-container img {
   margin-top: 10px;
   width: 100%;
   border-radius: 30px;
 }
-#right #news .container ul {
-  margin-left: 25px;
+#right #news .container .son-container ol {
+  margin-left: 15px;
 }
-#right #news .container a {
+#right #news .container .son-container li {
+  margin-bottom: 5px;
+}
+#right #news .container .son-container a {
   text-align: center;
+}
+#right #news .container .son-container a:hover {
+  text-decoration: underline;
+  color: maroon;
 }
 #right #pendientes {
   display: flex;

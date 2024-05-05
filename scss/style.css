@@ -4,7 +4,7 @@
         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         |--------------------------------->
         //////////////////////////////////
-       ////////// |27/04/24| ////////////
+       /////////// |2/5/24| /////////////
       //////////////////////////////////
 */
 body {
@@ -40,11 +40,6 @@ body p {
 /* MAIN */
 /* Styles de las primeras 2 pantallas */
 #presentacion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  flex-direction: column;
   /* Bienvenida */
   /* Texto */
 }
@@ -54,11 +49,17 @@ body p {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
+  background: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  border-bottom: 5px solid #020202;
 }
 #presentacion #bienvenida h1 {
   font-size: 12vw;
   text-align: center;
-  background: linear-gradient(90deg, #0b0d92, #023047);
+  background: linear-gradient(180deg, #9d7399, #6874e8);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -77,7 +78,9 @@ body p {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  border-radius: 50px;
+  border-end-end-radius: 70px;
+  border-end-start-radius: 70px;
+  border-bottom: 5px solid #000;
 }
 #presentacion #text-intro .container {
   max-width: 1100px;
@@ -337,6 +340,8 @@ body p {
   gap: 12px;
   overflow: hidden;
   max-height: 500px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  transition: all 600ms ease;
 }
 #right #news .container .son-container h3 {
   font-size: 22px;
@@ -358,10 +363,16 @@ body p {
 }
 #right #news .container .son-container a {
   text-align: center;
+  font-size: 18px;
+  transition: all 200ms ease;
 }
 #right #news .container .son-container a:hover {
   text-decoration: underline;
   color: maroon;
+}
+#right #news .container .son-container:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  scale: 1.1;
 }
 #right #pendientes {
   display: flex;
@@ -417,7 +428,7 @@ body p {
   flex-direction: column;
 }
 #right #calendario h2 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 #right #calendario .container {
   width: 90%;
@@ -426,9 +437,12 @@ body p {
 #right #calendario .container .tabla {
   margin-bottom: 50px;
   text-align: center;
+  border: 2px solid #000;
+  padding: 20px 0;
+  border-radius: 30px;
 }
 #right #calendario .container .tabla h3 {
-  margin: 20px 0;
+  margin: 40px 0;
   font-size: 32px;
 }
 #right #calendario .container .tabla ol {
@@ -468,6 +482,9 @@ body p {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
+}
+#right #info-profes h2 {
+  margin-top: 250px;
 }
 #right #info-profes .wrapper {
   position: relative;

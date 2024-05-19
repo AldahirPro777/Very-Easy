@@ -138,6 +138,13 @@ body p {
   text-align: center;
   padding: 20px;
 }
+#left .container .new .card .duo {
+  color: #58cc02;
+  cursor: cell;
+}
+#left .container .new .card .duo2 {
+  color: #89e219;
+}
 #left .container .new span {
   font-weight: 600;
 }
@@ -723,17 +730,17 @@ body p {
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 #right #footer .container .redes .face {
-  background: linear-gradient(45deg, #0165E1, #17A9FD);
+  background: linear-gradient(45deg, #0165e1, #17a9fd);
 }
 #right #footer .container .redes .face:hover {
-  background: linear-gradient(45deg, #17A9FD, #0165E1);
+  background: linear-gradient(45deg, #17a9fd, #0165e1);
 }
 #right #footer .container .redes .wasap {
-  background: linear-gradient(45deg, #E5FFCC, #1EBEA5, #00E676, #D0E9EA, #EDF8F5, #ffffff);
+  background: linear-gradient(45deg, #e5ffcc, #1ebea5, #00e676, #d0e9ea, #edf8f5, #ffffff);
   color: #004d40;
 }
 #right #footer .container .redes .wasap:hover {
-  background: linear-gradient(45deg, #D0E9EA, #EDF8F5, #E5FFCC, #1EBEA5, #00E676, #ffffff);
+  background: linear-gradient(45deg, #d0e9ea, #edf8f5, #e5ffcc, #1ebea5, #00e676, #ffffff);
 }
 #right #footer .container .redes a:hover {
   scale: 1.1;

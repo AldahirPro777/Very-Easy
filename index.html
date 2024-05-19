@@ -253,14 +253,18 @@
 
               <a href="#news">Detalles</a>
             </div>
+            
+            <div class="card card-duo">
+              <h4>
+                ✨Nuevo✨ Torneo de <br />
+                <div divDuo>
+                  <img src="/img/duolingo.svg" alt="IMagen de duolingo" />
+                  <span class="duo">DUOLINGO</span>
+                  <img src="/img/duolingo.svg" alt="IMagen de duolingo" />
+                </div>
+              </h4>
 
-            <div class="card">
-              <h4>✨Nuevo✨ Torneo de <span class="duo">DUOLINGO</span></h4>
-
-              <p><span>Titulo: </span>Reciclatrón</p>
-              <p><span>Materia: </span>Ingles</p>
-
-              <a href="#torneos">Detalles</a>
+              <a href="#torneos" class="shake">Detalles</a>
             </div>
           </div>
 
@@ -404,7 +408,16 @@
                     <p class="title"><span>Evento del "Dia De Las Madres"</span></p>
                     <p><span>Fecha: </span> martes 14/5/24</p>
                     <p><span>Fuente: </span>Aldahir M²</p>
-                </div> -->
+                </div>
+              -->
+            <div class="card-news son-container">
+              <h3>Aviso</h3>
+
+              <p class="title"><span>✨Nuevo✨</span></p>
+              <p><span>Fuente: </span>Aldahir M²</p>
+
+              <a href="#torneos" class="shake">Mas información</a>
+            </div>
           </div>
         </section>
 
@@ -616,16 +629,43 @@
           <h2>Torneos</h2>
 
           <div class="container">
-            <div class="card">
-              <h3>Duoliongo Proximamente</h3>
+            <!--
+            <div class="card card-duo">
+              <h3><span>✨ ¡Únete al Desafío! ✨</span> <br> <span class="duo-title">Duolingo</span></h3>
+              <p>
+                ¿Estás listo para llevar tus habilidades lingüísticas al
+                siguiente nivel? ¡Participa en nuestro emocionante torneo de
+                Duolingo y compite contra tus compañeros!
+              </p>
+              <p>
+                🏆 <span>Desafío de la Liga de Idiomas:</span><br />
+                ¡Demuestra tu destreza y gana increíbles premios!
+              </p>
+              <p>
+                🌍 <span>Conexión Global:</span><br />
+                Aprende y conecta con personas de todo el mundo mientras te
+                diviertes.
+              </p>
+              <p>
+                📅 <span>Fecha de Inicio:</span><br />
+                ¡Marca tu calendario! El torneo comienza este domingo.
+              </p>
+              <p>
+                🔗 <span>Únete Ahora:</span><br />
+                ¿Listo para la acción? Haz clic en el enlace abajo para entrar
+                al torneo.
+              </p>
+              <a href="#torneos" class="btn">
+                <img src="./img/duolingo.svg" alt="Duolingo" /> Inscribirse al
+                Torneo <img src="./img/duolingo.svg" alt="Duolingo"
+              /></a>
+            </div> -->
 
-              <!-- <p>Este torneo se realizara en conlaboración con la materia de ingles, la maestra de ingles aprobo que a los integrantes del top 3 pirmeros lugares se le suban puntos dependiendo de su lugar</p>
-
-                    <ul>
-                        <li><span>Primer lugar: </span>3 decimas</li>
-                        <li><span>Segundo lugar: </span>2 decimas</li>
-                        <li><span>Tercer lugar: </span>1 decimas</li>
-                    </ul> -->
+            <div class="card-aux">
+              <h3>
+                Prepárate para el desafío lingüístico del mes: <br />¡El Torneo
+                de Duolingo está casi aquí!
+              </h3>
             </div>
 
             <div class="card">
@@ -634,7 +674,7 @@
               <div>
                 <p>
                   Se realizaran torneos de kahoot! para determinar nuestro nivel
-                  individual en las diferentes disiplinas
+                  individual en las diferentes diciplinas
                   <br /><br />
                   Los desafios seran de los siguientes temas
                 </p>
@@ -643,10 +683,8 @@
                     <li>Matematicas</li>
                     <li>Fisica</li>
                     <li>JavaScript</li>
-                    <li>PHP</li>
                   </ul>
                   <ul>
-                    <li>SQL</li>
                     <li>CSS</li>
                     <li>HTML</li>
                     <li>Ingles</li>
@@ -710,6 +748,27 @@
       };
     </script>
 
+    <!-- Animacion de Duolingo -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const cardAux = document.querySelector(".card-aux");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                cardAux.classList.add("visible");
+                observer.unobserve(cardAux);
+              }
+            });
+          },
+          {
+            threshold: 0.1,
+          }
+        );
+
+        observer.observe(cardAux);
+      });
+    </script>
     <!-- mami soy tu vaquero, dime vaquero mami, mami soy tu vaquero --Genesis 1/5/24 -->
   </body>
 </html>

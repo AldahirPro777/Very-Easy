@@ -21,8 +21,8 @@
 // Mapa de colores
 $colores: (
     color-h2: #312244,
-    /* 000814 */ color-h3: #003566,
-    par: #540b0e /* 2c63cf */
+    color-h3: #003566,
+    /* 000814 */ par: #540b0e /* 2c63cf */
 );
 
 body {
@@ -174,15 +174,6 @@ body {
                 padding: 10px 0;
                 text-align: center;
                 padding: 20px;
-
-                .duo {
-                    color: #58cc02;
-                    cursor:cell;
-                }
-
-                .duo2{
-                    color: #89e219;
-                }
             }
 
             span {
@@ -213,6 +204,91 @@ body {
             a:active {
                 transition: all 100ms ease;
                 scale: 1.01;
+            }
+
+            .card-duo {
+                .duo {
+                    color: #58cc02;
+                    letter-spacing: 3px;
+                    cursor: cell;
+                }
+
+                img {
+                    width: 25px;
+                    transform: translateY(5px);
+                }
+
+                a {
+                    text-align: center;
+                    margin: 10px 0;
+                    width: 70%;
+                    color: #000;
+                    background-color: #58cc02;
+                    border: 2px solid #000;
+                    transition: all 500ms ease;
+                    border-radius: 25px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    padding: 2px 0;
+                }
+
+                a:hover {
+                    border: 2px solid #000;
+                    scale: 1.2;
+                }
+
+                a:active {
+                    transition: all 100ms ease;
+                    scale: 1.01;
+                }
+
+                .shake {
+                    animation-name: shake;
+                    -webkit-animation-name: shake;
+                    -moz-animation-name: shake;
+                    animation-duration: 1s;
+                    -webkit-animation-duration: 1s;
+                    -moz-animation-duration: 1s;
+                    animation-iteration-count: infinite;
+                    -webkit-animation-iteration-count: infinite;
+                    -moz-animation-iteration-count: infinite;
+                }
+
+                @keyframes shake {
+                    0% {
+                        transform: translate(1px, 1px) rotate(0deg);
+                    }
+                    10% {
+                        transform: translate(-1px, -2px) rotate(-1deg);
+                    }
+                    20% {
+                        transform: translate(-3px, 0px) rotate(1deg);
+                    }
+                    30% {
+                        transform: translate(3px, 2px) rotate(0deg);
+                    }
+                    40% {
+                        transform: translate(1px, -1px) rotate(1deg);
+                    }
+                    50% {
+                        transform: translate(-1px, 2px) rotate(-1deg);
+                    }
+                    60% {
+                        transform: translate(-3px, 1px) rotate(0deg);
+                    }
+                    70% {
+                        transform: translate(3px, 1px) rotate(-1deg);
+                    }
+                    80% {
+                        transform: translate(-1px, -1px) rotate(1deg);
+                    }
+                    90% {
+                        transform: translate(1px, 2px) rotate(0deg);
+                    }
+                    100% {
+                        transform: translate(1px, -2px) rotate(-1deg);
+                    }
+                }
             }
         }
 
@@ -395,11 +471,6 @@ body {
             align-items: center;
             flex-wrap: wrap;
 
-            .card-news .title {
-                display: flex;
-                justify-content: center;
-            }
-
             .son-container {
                 width: 300px;
                 padding: 30px 20px;
@@ -454,6 +525,96 @@ body {
             .son-container:hover {
                 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
                 scale: 1.1;
+            }
+
+            .card-news {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    letter-spacing: 1px;
+                }
+
+                p {
+                    letter-spacing: 1px;
+                }
+
+                a {
+                    text-align: center;
+                    margin: 10px 0;
+                    width: 70%;
+                    color: #000;
+                    background-color: #58cc02;
+                    border: 2px solid #000;
+                    transition: all 500ms ease;
+                    border-radius: 25px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    padding: 2px 0;
+                }
+
+                a:hover {
+                    color: #000;
+                    border: 2px solid #000;
+                    scale: 1.2;
+                    text-decoration: none;
+                }
+
+                a:active {
+                    transition: all 100ms ease;
+                    scale: 1.01;
+                }
+
+                .shake {
+                    animation-name: shake;
+                    -webkit-animation-name: shake;
+                    -moz-animation-name: shake;
+                    animation-duration: 1s;
+                    -webkit-animation-duration: 1s;
+                    -moz-animation-duration: 1s;
+                    animation-iteration-count: infinite;
+                    -webkit-animation-iteration-count: infinite;
+                    -moz-animation-iteration-count: infinite;
+                }
+
+                @keyframes shake {
+                    0% {
+                        transform: translate(1px, 1px) rotate(0deg);
+                    }
+                    10% {
+                        transform: translate(-1px, -2px) rotate(-1deg);
+                    }
+                    20% {
+                        transform: translate(-3px, 0px) rotate(1deg);
+                    }
+                    30% {
+                        transform: translate(3px, 2px) rotate(0deg);
+                    }
+                    40% {
+                        transform: translate(1px, -1px) rotate(1deg);
+                    }
+                    50% {
+                        transform: translate(-1px, 2px) rotate(-1deg);
+                    }
+                    60% {
+                        transform: translate(-3px, 1px) rotate(0deg);
+                    }
+                    70% {
+                        transform: translate(3px, 1px) rotate(-1deg);
+                    }
+                    80% {
+                        transform: translate(-1px, -1px) rotate(1deg);
+                    }
+                    90% {
+                        transform: translate(1px, 2px) rotate(0deg);
+                    }
+                    100% {
+                        transform: translate(1px, -2px) rotate(-1deg);
+                    }
+                }
             }
         }
     }
@@ -743,8 +904,61 @@ body {
     #torneos {
         @include medidas();
 
-        h3 {
-            margin-bottom: 10px;
+        h2 {
+            margin-bottom: 50px;
+        }
+
+        .card-aux {
+            background-color: #58cc02;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 450px;
+            text-align: center;
+            opacity: 0;
+            transition: all 500ms ease;
+            h3 {
+                color: #ffffff;
+                animation: textBlink 1.5s infinite;
+            }
+        }
+
+        .card-aux.visible {
+            opacity: 1; /* Visible */
+            animation:
+                slideIn 5s ease-out 5s,
+                fadeIn 1s ease-in 2s;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes textBlink {
+            0%,
+            100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.4;
+            }
         }
 
         .container {
@@ -754,7 +968,7 @@ body {
             flex-wrap: wrap;
 
             .card {
-                width: 350px;
+                width: 400px;
                 border: 2px solid #000;
                 border-radius: 20px;
                 padding: 20px 30px;
@@ -779,6 +993,54 @@ body {
                 flex-direction: column;
                 margin-top: 20px;
                 gap: 5px;
+            }
+        }
+
+        .card-duo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            background: linear-gradient(#fff, #58cc02, #58cc02, #58cc02);
+
+            span {
+                font-weight: 600;
+            }
+
+            .duo-title {
+                color: #58cc02;
+                font-size: 32px;
+            }
+
+            img {
+                width: 25px;
+                transform: translateY(7px);
+            }
+
+            a {
+                text-align: center;
+                display: inline-block;
+                background-color: #58cc02;
+                color: white;
+                width: 100%;
+                padding: 10px 20px;
+                margin: 20px 0;
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: bold;
+                transition: all 500ms ease;
+                letter-spacing: 1.5px;
+                font-size: 20px;
+
+                &:hover {
+                    background-color: #45a029;
+                    scale: 1.1;
+                }
+
+                &:active {
+                    transform: scale(0.98);
+                }
             }
         }
     }

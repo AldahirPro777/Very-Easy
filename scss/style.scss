@@ -490,6 +490,11 @@ body {
                     margin-bottom: 15px;
                 }
 
+                .centrar{
+                    text-align: center;
+                    color: map-get($colores, par);
+                }
+
                 span {
                     font-weight: 600;
                 }
@@ -525,6 +530,10 @@ body {
             .son-container:hover {
                 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
                 scale: 1.1;
+            }
+
+            .son-container:not(:hover){
+                filter: opacity(80%);
             }
 
             .card-news {

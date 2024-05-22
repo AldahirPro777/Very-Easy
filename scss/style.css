@@ -414,6 +414,10 @@ body p {
   font-size: 22px;
   margin-bottom: 15px;
 }
+#right #news .container .son-container .centrar {
+  text-align: center;
+  color: #540b0e;
+}
 #right #news .container .son-container span {
   font-weight: 600;
 }
@@ -442,6 +446,9 @@ body p {
 #right #news .container .son-container:hover {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
   scale: 1.1;
+}
+#right #news .container .son-container:not(:hover) {
+  filter: opacity(80%);
 }
 #right #news .container .card-news {
   display: flex;

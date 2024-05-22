@@ -438,11 +438,11 @@ body p {
   text-align: center;
   font-size: 18px;
   transition: all 200ms ease;
-  color: maroon;
+  color: #003566;
 }
 #right #news .container .son-container a:hover {
   text-decoration: underline;
-  color: #003566;
+  color: maroon;
 }
 #right #news .container .son-container:hover {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);

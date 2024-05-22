@@ -397,7 +397,7 @@ body p {
   flex-wrap: wrap;
 }
 #right #news .container .son-container {
-  width: 300px;
+  width: 350px; /* 300 */
   padding: 30px 20px;
   border: 2px solid #fff;
   border-radius: 20px;
@@ -407,8 +407,6 @@ body p {
   justify-content: center;
   flex-direction: column;
   gap: 12px;
-  overflow: hidden;
-  max-height: 500px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   transition: all 600ms ease;
 }
@@ -429,15 +427,17 @@ body p {
 }
 #right #news .container .son-container li {
   margin-bottom: 5px;
+  margin-left: 17px;
 }
 #right #news .container .son-container a {
   text-align: center;
   font-size: 18px;
   transition: all 200ms ease;
+  color: maroon;
 }
 #right #news .container .son-container a:hover {
   text-decoration: underline;
-  color: maroon;
+  color: #003566;
 }
 #right #news .container .son-container:hover {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);

@@ -1056,6 +1056,8 @@ body {
 
     /* Horario */
     #horario{
+        @include medidas();
+
         figure{
             width: 100%;
             display: flex;

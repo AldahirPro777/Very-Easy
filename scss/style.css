@@ -908,6 +908,13 @@ body p {
 #right #torneos .card-duo a:active {
   transform: scale(0.98);
 }
+#right #horario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
 #right #horario figure {
   width: 100%;
   display: flex;

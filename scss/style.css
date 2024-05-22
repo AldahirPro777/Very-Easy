@@ -923,6 +923,8 @@ body p {
 }
 #right #horario figure img {
   width: 90%;
+  border-radius: 40px;
+  border: 2px solid #000;
 }
 #right #galery {
   display: flex;

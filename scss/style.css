@@ -378,6 +378,7 @@ body p {
   /* Calendario */
   /* Profesores */
   /* Torneos */
+  /* Horario */
   /* Galeria */
   /* Footer */
 }
@@ -906,6 +907,15 @@ body p {
 }
 #right #torneos .card-duo a:active {
   transform: scale(0.98);
+}
+#right #horario figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#right #horario figure img {
+  width: 90%;
 }
 #right #galery {
   display: flex;

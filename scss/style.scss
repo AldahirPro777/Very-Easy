@@ -1054,6 +1054,20 @@ body {
         }
     }
 
+    /* Horario */
+    #horario{
+        figure{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 90%;
+            }
+        }
+    }
+
     /* Galeria */
     #galery {
         @include medidas();

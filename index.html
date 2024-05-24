@@ -158,7 +158,8 @@
             <h3>Frase</h3>
             <p>
               <!-- Joto el que lo lea -->
-              Únicamente aquellos que se atreven a tener grandes fracasos, terminan consiguiendo grandes éxitos.
+              Únicamente aquellos que se atreven a tener grandes fracasos,
+              terminan consiguiendo grandes éxitos.
             </p>
           </div>
 
@@ -369,8 +370,8 @@
               <p><span>Materia: </span>Fisica</p>
               <p><span>Fecha de entrega: </span>27/05/24</p>
               <p>
-                <span>Descripción: </span>Realizar 5 ejercicios de Trabajo (W) y 5
-                ejercicios de TrabajoNeto con friccion (Wneto)
+                <span>Descripción: </span>Realizar 5 ejercicios de Trabajo (W) y
+                5 ejercicios de TrabajoNeto con friccion (Wneto)
               </p>
             </div>
 
@@ -381,10 +382,14 @@
               <p><span>Materia: </span>Matematicas</p>
               <p><span>Fecha de entrega: </span>28/05/24</p>
               <p>
-                <span>Descripción: </span>Plasmar en la libreta los apuntes
-                (<span style="color: red">Muy importantes</span>) del dia martes
+                <span>Descripción: </span>Plasmar en la libreta los apuntes del
+                dia Jueves
               </p>
-              <a target="_blank" href="https://photos.app.goo.gl/9B24NpD1hJx96kxR9">Apuntes</a>
+              <a
+                target="_blank"
+                href="https://photos.app.goo.gl/9B24NpD1hJx96kxR9"
+                >Apuntes</a
+              >
             </div>
 
             <div class="card-tarea son-container">
@@ -446,19 +451,24 @@
               </p>
               <p><span>Materia: </span>Fisica</p>
               <p><span>Fecha de entrega: </span>27 de Mayo</p>
-              <p><span>Descripción: </span>Entregar el proyecto de fisica el dia lunes sin falta (ultima oportunidad).</p>
+              <p>
+                <span>Descripción: </span>Entregar el proyecto de fisica el dia
+                lunes sin falta (ultima oportunidad).
+              </p>
             </div>
 
             <!-- Cards de Avisos -->
-            
-                <div class="card-news son-container">
-                    <h3>Noticia</h3>
 
-                    <p class="title"><span>Evento del "Dia De El Estudiante"</span></p>
-                    <p><span>Fecha: </span> Viernes 24/5/24 a las 9:00 am</p>
-                    <p><span>Fuente: </span>Aldahir M²</p>
-                </div>
-              
+            <div class="card-news son-container">
+              <h3>Noticia</h3>
+
+              <p class="title">
+                <span>Evento del "Dia De El Estudiante"</span>
+              </p>
+              <p><span>Fecha: </span> Viernes 24/5/24 a las 9:00 am</p>
+              <p><span>Fuente: </span>Aldahir M²</p>
+            </div>
+
             <div class="card-news son-container">
               <h3>Aviso</h3>
 
@@ -555,7 +565,7 @@
                 <li>19</li>
                 <li>20<br /><a href="#news">🛠️</a></li>
                 <li>21</li>
-                <li>22 </li>
+                <li>22</li>
                 <li>23 <br />🌟 <a href="#news">📚📚🛠️</a></li>
                 <li>24 <br /><a href="#news">📅</a></li>
                 <li>25</li>
@@ -752,7 +762,7 @@
 
         <section id="horario">
           <figure>
-            <img src="img/Horario 430-B.jpg" alt="IMagen del Horario escolar">
+            <img src="img/Horario 430-B.jpg" alt="IMagen del Horario escolar" />
           </figure>
         </section>
 
@@ -807,28 +817,6 @@
           ? "fa-solid fa-xmark"
           : "fa-solid fa-bars";
       };
-    </script>
-
-    <!-- Animacion de Duolingo -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const cardAux = document.querySelector(".card-aux");
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                cardAux.classList.add("visible");
-                observer.unobserve(cardAux);
-              }
-            });
-          },
-          {
-            threshold: 0.1,
-          }
-        );
-
-        observer.observe(cardAux);
-      });
     </script>
     <!-- mami soy tu vaquero, dime vaquero mami, mami soy tu vaquero --Genesis 1/5/24 -->
   </body>

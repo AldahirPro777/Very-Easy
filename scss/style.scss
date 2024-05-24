@@ -933,22 +933,10 @@ body {
             }
         }
 
-        .card-aux.visible {
+        .card-aux {
             opacity: 1; /* Visible */
             animation:
-                slideIn 5s ease-out 5s,
                 fadeIn 1s ease-in 2s;
-        }
-
-        @keyframes slideIn {
-            from {
-                transform: translateY(-50%);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
         }
 
         @keyframes fadeIn {

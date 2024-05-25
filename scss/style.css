@@ -4,7 +4,7 @@
         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         |--------------------------------->
         //////////////////////////////////
-       /////////// |2/5/24| /////////////
+       /////////// |25/5/24| ////////////
       //////////////////////////////////
 */
 body {
@@ -398,7 +398,7 @@ body p {
   flex-wrap: wrap;
 }
 #right #news .container .son-container {
-  width: 350px; /* 300 */
+  width: 325px; /* 325 */
   padding: 30px 20px;
   border: 2px solid #fff;
   border-radius: 20px;
@@ -922,6 +922,13 @@ body p {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
+  /*
+
+
+  Proximamente mas estilos
+
+
+  */
 }
 #right #galery h2 {
   margin: 0;

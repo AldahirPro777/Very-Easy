@@ -6,33 +6,29 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: fredoka, monospace;
+    font-family:  fredoka, sans-serif;
 }
 
 /* Mini animacion de scroll con los botones */
-
 html{
     scroll-behavior: smooth;
 }
 
-/* Estilo por defecto */
-
+/* Estilo por defecto de etiqueta "a"*/
 a{
     text-decoration: none;
 }
 
-img{
-    width: 200px;
-}
-
 /* Estilo scroll */
-
 body::-webkit-scrollbar {
     width: 0px;
 }
-/* 
+/*
 body::-webkit-scrollbar-thumb {
     border-radius: 22px;
+
+    // border-top-left-radius: 0;
+    // border-bottom-left-radius: 0;
 
     border: 10px solid #999;
 }

@@ -1,3 +1,7 @@
+
+/* Archivo scss */
+
+/*  */
 header{
     position: fixed;
     padding: 0 32px;
@@ -99,7 +103,7 @@ header .menu_cel{
     transition: height .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* Tamaño del menu chico */
+/* Menu chico */
 
 header .menu_cel.open{
     height: 275px;
@@ -121,7 +125,7 @@ header .menu_cel .action-btn{
 
 /* 🤑😈Responsive🤑😈 */
 
-@media (max-width:1050px) {
+@media (max-width:1200px) {
     header .navbar .links,
     header .navbar .action-btn{
         display: none;

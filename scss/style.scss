@@ -4,7 +4,7 @@
         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         |--------------------------------->
         //////////////////////////////////
-       /////////// |2/5/24| /////////////
+       /////////// |25/5/24| ////////////
       //////////////////////////////////
 */
 
@@ -67,7 +67,6 @@ body {
 /* MAIN */
 
 /* Styles de las primeras 2 pantallas */
-
 #presentacion {
     /* Bienvenida */
     #bienvenida {
@@ -132,7 +131,6 @@ body {
 }
 
 /* Styles del div left */
-
 #left {
     width: 25%;
     left: 0;
@@ -453,7 +451,6 @@ body {
 }
 
 /* Styles del div right */
-
 #right {
     width: 75%;
     right: 0;
@@ -472,7 +469,7 @@ body {
             flex-wrap: wrap;
 
             .son-container {
-                width: 350px;/* 300 */
+                width: 325px; /* 325 */
                 padding: 30px 20px;
                 border: 2px solid #fff;
                 border-radius: 20px;
@@ -490,7 +487,7 @@ body {
                     margin-bottom: 15px;
                 }
 
-                .centrar{
+                .centrar {
                     text-align: center;
                     color: map-get($colores, par);
                 }
@@ -532,7 +529,7 @@ body {
                 scale: 1.1;
             }
 
-            .son-container:not(:hover){
+            .son-container:not(:hover) {
                 filter: opacity(80%);
             }
 
@@ -935,8 +932,7 @@ body {
 
         .card-aux {
             opacity: 1; /* Visible */
-            animation:
-                fadeIn 1s ease-in 2s;
+            animation: fadeIn 1s ease-in 2s;
         }
 
         @keyframes fadeIn {
@@ -1043,16 +1039,16 @@ body {
     }
 
     /* Horario */
-    #horario{
+    #horario {
         @include medidas();
 
-        figure{
+        figure {
             width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
 
-            img{
+            img {
                 width: 90%;
                 border-radius: 40px;
                 border: 2px solid #000;
@@ -1067,6 +1063,14 @@ body {
         h2 {
             margin: 0;
         }
+
+        /*
+
+
+        Proximamente mas estilos
+
+
+        */
     }
 
     /* Footer */

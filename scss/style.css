@@ -65,7 +65,7 @@ body p {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
-  height: 200vh;
+  height: 220vh;
   width: 100%;
   background: url(../img/fondo7.jpg);
   background-repeat: no-repeat;
@@ -101,10 +101,10 @@ body p {
 }
 @media (max-width: 600px) {
   #presentacion #text-intro {
-    border-radius: 0px;
+    border-radius: 30px;
   }
-  #presentacion #text-intro p {
-    font-size: 16px;
+  #presentacion #text-intro .container {
+    margin: 30px 10px;
   }
 }
 

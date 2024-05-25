@@ -73,10 +73,10 @@ body p {
   background-attachment: fixed;
   background-position: center;
   border-radius: 50px;
+  transition: all 600ms ease;
 }
 #presentacion #text-intro .container {
   max-width: 1100px;
-  min-width: 400px;
   margin: 30px 70px;
   text-align: center;
   border-radius: 20px;
@@ -99,6 +99,15 @@ body p {
 #presentacion #text-intro .motivacional {
   color: lavenderblush;
 }
+@media (max-width: 600px) {
+  #presentacion #text-intro {
+    border-radius: 0px;
+  }
+  #presentacion #text-intro p {
+    font-size: 16px;
+  }
+}
+
 /* Styles del div left */
 #left {
   width: 25%;
@@ -530,11 +539,6 @@ body p {
   }
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
-  }
-}
-@media (max-width: 500px) {
-  #right #news .container {
-    width: 300px;
   }
 }
 #right #pendientes {

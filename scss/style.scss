@@ -99,9 +99,10 @@ body {
 
         border-radius: 50px;
 
+        transition: all 600ms ease;
+
         .container {
             max-width: 1100px;
-            min-width: 400px;
             margin: 30px 70px;
             text-align: center;
             border-radius: 20px;
@@ -127,9 +128,16 @@ body {
         .motivacional {
             color: lavenderblush;
         }
-    }
 
-    @media (width: 600px) {
+        @media (max-width: 600px) {
+            & {
+                border-radius: 0px;
+            }
+
+            p{
+                font-size: 16px;
+            }
+        }
     }
 }
 
@@ -624,12 +632,6 @@ body {
                         transform: translate(1px, -2px) rotate(-1deg);
                     }
                 }
-            }
-        }
-
-        @media (max-width: 500px) {
-            .container {
-                width: 300px;
             }
         }
     }

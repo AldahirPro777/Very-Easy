@@ -839,6 +839,9 @@ body p {
   margin-top: 20px;
   gap: 5px;
 }
+#right #torneos .container .card:hover {
+  scale: 1.01;
+}
 #right #torneos .card-aux {
   background-color: #58cc02;
   color: #fff;
@@ -897,7 +900,7 @@ body p {
   font-size: 20px;
 }
 #right #torneos .card-duo a:hover {
-  background-color: #45a029;
+  background-color: #53c430;
   scale: 1.1;
 }
 #right #torneos .card-duo a:active {

@@ -966,6 +966,10 @@ body {
                     margin-top: 20px;
                     gap: 5px;
                 }
+
+                &:hover{
+                    scale: 1.01;
+                }
             }
         }
 
@@ -1035,7 +1039,7 @@ body {
                 font-size: 20px;
 
                 &:hover {
-                    background-color: #45a029;
+                    background-color: #53c430;
                     scale: 1.1;
                 }
 

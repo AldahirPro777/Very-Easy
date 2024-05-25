@@ -65,7 +65,7 @@ body p {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
-  height: 220vh;
+  height: 200vh;
   width: 100%;
   background: url(../img/fondo7.jpg);
   background-repeat: no-repeat;
@@ -88,6 +88,7 @@ body p {
 }
 #presentacion #text-intro h2 {
   color: #020202;
+  margin: 0;
 }
 #presentacion #text-intro p {
   color: azure;
@@ -101,7 +102,7 @@ body p {
 }
 @media (max-width: 600px) {
   #presentacion #text-intro {
-    min-height: 300vh;
+    min-height: 250vh;
     border-radius: 30px;
   }
   #presentacion #text-intro .container {
@@ -417,7 +418,7 @@ body p {
   border: 2px solid #fff;
   border-radius: 20px;
   border-top-left-radius: 0px;
-  margin: 20px 25px;
+  margin: 30px 25px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -866,12 +867,55 @@ body p {
   margin-top: 20px;
   gap: 5px;
 }
+#right #torneos .card-duo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#fff, #58cc02, #58cc02, #58cc02);
+}
+#right #torneos .card-duo span {
+  font-weight: 600;
+}
+#right #torneos .card-duo .duo-title {
+  color: #58cc02;
+  font-size: 32px;
+}
+#right #torneos .card-duo img {
+  width: 25px;
+  transform: translateY(7px);
+}
+#right #torneos .card-duo a {
+  text-align: center;
+  display: inline-block;
+  background-color: #58cc02;
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 500ms ease;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+#right #torneos .card-duo a:hover {
+  background-color: #45a029;
+  scale: 1.1;
+}
+#right #torneos .card-duo a:active {
+  transform: scale(0.98);
+}
 #right #horario {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
+}
+#right #horario h2 {
+  margin-bottom: 50px;
 }
 #right #horario figure {
   width: 100%;
@@ -906,7 +950,6 @@ body p {
   width: 133.5%;
   left: -33.5%;
   height: 120px;
-  bottom: -130px;
   background: linear-gradient(270deg, #b8c0ff, #bbd0ff);
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;

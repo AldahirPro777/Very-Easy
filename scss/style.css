@@ -104,7 +104,13 @@ body p {
     border-radius: 30px;
   }
   #presentacion #text-intro .container {
+    min-height: 300vh;
     margin: 30px 10px;
+  }
+}
+@media (min-width: 600px) {
+  #presentacion #text-intro {
+    min-height: 200vh;
   }
 }
 

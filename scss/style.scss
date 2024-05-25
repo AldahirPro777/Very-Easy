@@ -18,6 +18,7 @@
     flex-direction: column;
 }
 
+
 // Mapa de colores
 $colores: (
     color-h2: #312244,
@@ -135,7 +136,14 @@ body {
             }
 
             .container{
+                min-height: 300vh;
                 margin: 30px 10px;
+            }
+        }
+
+        @media (min-width: 600px) {
+            & {
+                min-height: 200vh;
             }
         }
     }

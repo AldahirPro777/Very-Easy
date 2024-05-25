@@ -132,11 +132,11 @@ body {
 
         @media (max-width: 600px) {
             & {
+                min-height: 300vh;
                 border-radius: 30px;
             }
 
             .container{
-                min-height: 300vh;
                 margin: 30px 10px;
             }
         }

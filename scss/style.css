@@ -103,8 +103,8 @@ body p {
   #presentacion #text-intro {
     border-radius: 0px;
   }
-  #presentacion #text-intro p {
-    font-size: 16px;
+  #presentacion #text-intro .container {
+    margin: 30px 10px;
   }
 }
 

@@ -808,6 +808,37 @@ body p {
 #right #torneos h2 {
   margin-bottom: 50px;
 }
+#right #torneos .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#right #torneos .container .card {
+  max-width: 500px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin: 30px;
+  transition: all 600ms ease;
+}
+#right #torneos .container .card p {
+  text-align: justify;
+}
+#right #torneos .container .card .uls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#right #torneos .container .card ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 5px;
+}
 #right #torneos .card-aux {
   background-color: #58cc02;
   color: #fff;
@@ -831,41 +862,6 @@ body p {
   50% {
     opacity: 0.4;
   }
-}
-#right #torneos .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-#right #torneos .container .card {
-  width: 400px;
-  border: 2px solid #000;
-  border-radius: 20px;
-  padding: 20px 30px;
-  margin: 30px 30px;
-}
-#right #torneos .container .card p {
-  text-align: justify;
-}
-@media (max-width: 600px) {
-  #right #torneos .container .card {
-    width: 300px;
-  }
-}
-#right #torneos .container .uls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-#right #torneos .container ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 20px;
-  gap: 5px;
 }
 #right #torneos .card-duo {
   display: flex;

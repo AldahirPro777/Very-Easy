@@ -933,6 +933,42 @@ body {
             margin-bottom: 50px;
         }
 
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .card {
+                max-width: 500px;
+                border: 2px solid #000;
+                border-radius: 20px;
+                padding: 20px 30px;
+                margin: 30px;
+                transition: all 600ms ease;
+
+                p {
+                    text-align: justify;
+                }
+
+                .uls {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                }
+
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    margin-top: 20px;
+                    gap: 5px;
+                }
+            }
+        }
+
         .card-aux {
             background-color: #58cc02;
             color: #fff;
@@ -958,47 +994,6 @@ body {
                 50% {
                     opacity: 0.4;
                 }
-            }
-        }
-
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-
-            .card {
-                width: 400px;
-                border: 2px solid #000;
-                border-radius: 20px;
-                padding: 20px 30px;
-                margin: 30px 30px;
-
-                p {
-                    text-align: justify;
-                }
-            }
-
-            @media (max-width: 600px) {
-                .card {
-                    width: 300px;
-                }
-            }
-
-            .uls {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 20px;
-            }
-
-            ul {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                margin-top: 20px;
-                gap: 5px;
             }
         }
 
@@ -1055,7 +1050,7 @@ body {
     #horario {
         @include medidas();
 
-        h2{
+        h2 {
             margin-bottom: 50px;
         }
 

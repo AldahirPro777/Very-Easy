@@ -37,7 +37,7 @@ body {
         text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
         margin: 0 30px;
         transition: all 800ms ease;
-        margin-top: 60px;
+        margin-top: 100px;
     }
 
     h2:hover {
@@ -760,7 +760,7 @@ body {
         @include medidas();
 
         h2 {
-            margin-top: 250px;
+            margin-top: 400px;
         }
 
         .wrapper {

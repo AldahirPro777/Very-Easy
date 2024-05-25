@@ -99,7 +99,6 @@ body p {
 #presentacion #text-intro .motivacional {
   color: lavenderblush;
 }
-
 /* Styles del div left */
 #left {
   width: 25%;
@@ -393,12 +392,12 @@ body p {
   width: 100%;
   margin-top: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
 #right #news .container .son-container {
-  width: 325px; /* 325 */
+  width: 350px;
   padding: 30px 20px;
   border: 2px solid #fff;
   border-radius: 20px;
@@ -531,6 +530,11 @@ body p {
   }
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+@media (max-width: 500px) {
+  #right #news .container {
+    width: 300px;
   }
 }
 #right #pendientes {
@@ -727,7 +731,7 @@ body p {
 #right #info-profes .details h3 {
   font-size: 1.5em;
   margin-bottom: 5px;
-  color: #405de6;
+  color: #fff;
 }
 #right #info-profes .details h4 {
   font-weight: 400;
@@ -795,7 +799,7 @@ body p {
 }
 #right #torneos .card-aux {
   background-color: #58cc02;
-  color: #ffffff;
+  color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -803,22 +807,11 @@ body p {
   text-align: center;
   opacity: 0;
   transition: all 500ms ease;
+  opacity: 1;
 }
 #right #torneos .card-aux h3 {
   color: #ffffff;
   animation: textBlink 1.5s infinite;
-}
-#right #torneos .card-aux {
-  opacity: 1; /* Visible */
-  animation: fadeIn 1s ease-in 2s;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 @keyframes textBlink {
   0%, 100% {
@@ -844,6 +837,11 @@ body p {
 #right #torneos .container .card p {
   text-align: justify;
 }
+@media (max-width: 600px) {
+  #right #torneos .container .card {
+    width: 300px;
+  }
+}
 #right #torneos .container .uls {
   display: flex;
   justify-content: center;
@@ -857,46 +855,6 @@ body p {
   flex-direction: column;
   margin-top: 20px;
   gap: 5px;
-}
-#right #torneos .card-duo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: linear-gradient(#fff, #58cc02, #58cc02, #58cc02);
-}
-#right #torneos .card-duo span {
-  font-weight: 600;
-}
-#right #torneos .card-duo .duo-title {
-  color: #58cc02;
-  font-size: 32px;
-}
-#right #torneos .card-duo img {
-  width: 25px;
-  transform: translateY(7px);
-}
-#right #torneos .card-duo a {
-  text-align: center;
-  display: inline-block;
-  background-color: #58cc02;
-  color: white;
-  width: 100%;
-  padding: 10px 20px;
-  margin: 20px 0;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 500ms ease;
-  letter-spacing: 1.5px;
-  font-size: 20px;
-}
-#right #torneos .card-duo a:hover {
-  background-color: #45a029;
-  scale: 1.1;
-}
-#right #torneos .card-duo a:active {
-  transform: scale(0.98);
 }
 #right #horario {
   display: flex;

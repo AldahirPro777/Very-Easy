@@ -17,6 +17,12 @@
     <!-- ICO -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
+    <!-- Animaciones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+
     <!-- CSSs -->
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/head.css" />
@@ -82,7 +88,7 @@
         <!-- Título -->
         <div id="bienvenida">
           <div class="container">
-            <h1>(: Bienvenid@ :)</h1>
+            <h1 class="animate__animated animate__backInLeft">(: Bienvenid@ :)</h1>
           </div>
         </div>
 
@@ -302,7 +308,7 @@
           <div class="btns divv">
             <h3>Texto de introducción</h3>
             <div class="container">
-              <button onclick="deleteIntro()">Quitar</button>
+              <button id="Quitar" onclick="deleteIntro()">Quitar</button>
               <button onclick="addIntro()">Restaurar</button>
 
               <!--
@@ -397,7 +403,7 @@
             <div class="card-tarea son-container">
               <h3>Tarea</h3>
 
-              <p class="title"><span>Titulo: </span>Programa de módulo</p>
+              <p class="title"><span>Titulo: </span>Programa de Módulo</p>
               <p><span>Materia: </span>Módulo</p>
               <p><span>Fecha de entrega: </span>29/05/24</p>
               <p><span>Descripción: </span>Copiar el codigo.</p>
@@ -406,6 +412,17 @@
                 href="https://photos.app.goo.gl/1K315Mq3j8c965Ro9"
                 >Fotos</a
               >
+            </div>
+
+            <div class="card-tarea son-container">
+              <h3>Tarea</h3>
+
+              <p class="title"><span>Titulo: </span>Preguntas de EcologÍa</p>
+              <p><span>Materia: </span>EcologÍa</p>
+              <p><span>Fecha de entrega: </span>30/05/24</p>
+              <p><span>Descripción: </span>Responder las preguntas</p>
+              <a target="_blank" href="img/ecologia-img.jpg">Foto</a>
+              <img src="img/ecologia-img.jpg" alt="IMAGEN" />
             </div>
 
             <!-- Cards de Proyectos -->
@@ -441,9 +458,8 @@
               <p><span>Hora: </span>11:40 AM</p>
               <p><span>Lugar: </span>Aula <b>K1</b></p>
               <p><span>Fuente: </span>Aldahir M²</p>
-              <a target="_blank" href="img/reunion.jpg" class="button"
-                >IMAGEN</a
-              >
+              <a target="_blank" href="img/reunion.jpg">Foto</a>
+              <img src="img/reunion.jpg" alt="IMAGEN" />
             </div>
           </div>
         </section>
@@ -466,6 +482,12 @@
               <tbody>
                 <!-- Examenes -->
                 <!-- Tareas -->
+                <tr>
+                  <td>Copiar Programa</td>
+                  <td class="responsive-1">Módulo</td>
+                  <td class="responsive-4">Tarea</td>
+                  <td>29/5/24</td>
+                </tr>
                 <tr>
                   <td>Apunte y grafica</td>
                   <td class="responsive-1">Matematicas</td>
@@ -542,9 +564,10 @@
                 <li>26</li>
                 <li>27 <br />🎂 <a href="#news">📚📚🛠️</a></li>
                 <li>28<br />🌟</li>
-                <li>29</li>
-                <li>30</li>
-                <li>31</li>
+                <li>29 <br /> <a href="#news">📚📚</a></li>
+                <li>30 <br /> <a href="#news">📚📅</a></li>
+                <li>31 <br /> <a href="#news">📚</a></li>
+
               </ol>
             </div>
 

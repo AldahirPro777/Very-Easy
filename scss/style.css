@@ -383,6 +383,31 @@ body p {
   scale: 1.01;
   transition: all 100ms ease;
 }
+#left .container .btns {
+  background-color: #fff;
+}
+#left .container .btns .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#left .container .btns .container button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #0074d9;
+  color: white;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+#left .container .btns .container button:hover {
+  background-color: #0056b3;
+  border-radius: 20px;
+  scale: 1.1;
+}
+#left .container .btns .container button:active {
+  transition: all 200ms ease;
+  scale: 0.9;
+}
 
 /* Styles del sección right */
 #right {

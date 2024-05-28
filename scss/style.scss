@@ -466,6 +466,36 @@ body {
                 }
             }
         }
+
+        .btns {
+            background-color: #fff;
+
+            .container {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                button {
+                    padding: 0.5rem 1rem;
+                    border: none;
+                    background-color: #0074d9;
+                    color: white;
+                    cursor: pointer;
+                    transition: all 400ms ease;
+                }
+
+                button:hover {
+                    background-color: #0056b3;
+                    border-radius: 20px;
+                    scale: 1.1;
+                }
+
+                button:active {
+                    transition: all 200ms ease;
+                    scale: 0.9;
+                }
+            }
+        }
     }
 }
 
@@ -967,7 +997,7 @@ body {
                     gap: 5px;
                 }
 
-                &:hover{
+                &:hover {
                     scale: 1.01;
                 }
             }

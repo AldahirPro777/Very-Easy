@@ -9,3 +9,7 @@ function addIntro() {
 
     section.style.display = "block";
 }
+
+function name(params) {
+    
+}

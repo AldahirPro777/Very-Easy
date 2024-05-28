@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
        \\\\\ Aldahir Molina Medina  \\\\\
@@ -115,7 +116,7 @@ body p {
   }
 }
 
-/* Styles del div left */
+/* Styles del sección left */
 #left {
   width: 25%;
   left: 0;
@@ -383,7 +384,7 @@ body p {
   transition: all 100ms ease;
 }
 
-/* Styles del div right */
+/* Styles del sección right */
 #right {
   width: 75%;
   right: 0;
@@ -933,13 +934,6 @@ body p {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
-  /*
-
-
-  Proximamente mas estilos
-
-
-  */
 }
 #right #galery h2 {
   margin: 0;

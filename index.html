@@ -35,7 +35,7 @@
       <!-- Navegador compu -->
 
       <div class="navbar">
-        <div class="logo"><a href="#presentacion">EASY</a></div>
+        <div class="logo"><a href="#presentacion">27/5/24</a></div>
 
         <ul class="links">
           <li><a href="#presentacion">Inicio</a></li>
@@ -241,7 +241,7 @@
           <!-- Noticias destacas -->
           <div class="new divv">
             <h3>Eventos Destacados</h3>
-
+            <!-- 
             <div class="card">
               <h4>Proyecto</h4>
 
@@ -250,7 +250,7 @@
               <p><span>Fecha de entrega: </span>Del 20 al 24 de Mayo</p>
 
               <a href="#news">Detalles</a>
-            </div>
+            </div> -->
 
             <div class="card card-duo">
               <h4>
@@ -271,7 +271,7 @@
             <h3>Siguiente cumpleañer@</h3>
 
             <marquee direction="right" scrollamount="5"
-              >🎈🎉🎊🎁 |--> Leonel <--|--> 27/5/07 <--| 🎇✨🎂❤️‍🔥</marquee
+              >🎈🎉🎊🎁 |--> Andy <--|--> 10/7/? <--| 🎇✨🎂❤️‍🔥</marquee
             >
           </div>
 
@@ -296,6 +296,14 @@
                 ><img src="img/cel.png" alt="IMAGEN" />Telefono</a
               >
             </div>
+          </div>
+
+          <div class="btns divv">
+
+            <h3>Texto de introducción</h3>
+
+            <button onclick="deleteIntro()">Quitar</button>
+            <button onclick="addIntro()">Restaurar</button>
           </div>
         </div>
       </section>
@@ -363,17 +371,6 @@
                 </div> -->
 
             <!-- Cards de Tareas -->
-            <div class="card-tarea son-container">
-              <h3>Tarea</h3>
-
-              <p class="title"><span>Titulo: </span>Ejercicios Fisica</p>
-              <p><span>Materia: </span>Fisica</p>
-              <p><span>Fecha de entrega: </span>27/05/24</p>
-              <p>
-                <span>Descripción: </span>Realizar 5 ejercicios de Trabajo (W) y
-                5 ejercicios de TrabajoNeto con friccion (Wneto)
-              </p>
-            </div>
 
             <div class="card-tarea son-container">
               <h3>Tarea</h3>
@@ -392,57 +389,8 @@
               >
             </div>
 
-            <div class="card-tarea son-container">
-              <h3>Tarea</h3>
-
-              <p class="title"><span>Titulo: </span>Hoja de ingles</p>
-              <p><span>Materia: </span>Ingles</p>
-              <p><span>Fecha de entrega: </span>27/05/24</p>
-              <p>
-                <span>Descripción: </span>Constestar la parte de atras de la
-                hoja que contestamos en clases el dia martes
-              </p>
-            </div>
-
             <!-- Cards de Proyectos -->
-            <div class="card-proyecto son-container">
-              <h3>Proyecto</h3>
-
-              <p class="title"><span>Titulo: </span>Reciclatrón</p>
-              <p><span>Materia: </span>Ecologia</p>
-              <p><span>Fecha de entrega: </span>Del 20 al 24 de Mayo</p>
-              <p>
-                <span>Descripción: </span><br />Elaboración de reporte con el
-                siguiente contenido: <br />
-              </p>
-              <span class="centrar"
-                >Informacion proporcinada por la maestra Marisol</span
-              >
-              <ul>
-                <li>
-                  <span>Introducción: </span>Debe hablar sobre el día mundial
-                  del reciclaje y el lema de este año.
-                </li>
-                <br />
-                <li>
-                  <span>Desarrollo: </span>Para conmemorar este día, debe
-                  escribir como realizó la actividad de la recolección del papel
-                  y plástico, donde lo hizo, como y con quien lo hizo y cual es
-                  el beneficio para usted y la sociedad?
-                </li>
-                <li>
-                  <span>Conclusión: </span> Debe escribir sobre el mensaje que
-                  ustedes se queda y el mensaje que me quiere brindar a la
-                  sociedad al hacer este tipo de actividades
-                </li>
-              </ul>
-              <a
-                href="src/CALENDARIO DE ACTIVIDADES AMBIENTALES.pdf"
-                target="_blank"
-                >Mas información</a
-              >
-            </div>
-
+            <!-- 
             <div class="card-proyecto son-container">
               <h3>Proyecto</h3>
 
@@ -455,7 +403,7 @@
                 <span>Descripción: </span>Entregar el proyecto de fisica el dia
                 lunes sin falta (ultima oportunidad).
               </p>
-            </div>
+            </div> -->
 
             <!-- Cards de Avisos -->
             <div class="card-news son-container">
@@ -486,25 +434,11 @@
               <tbody>
                 <!-- Examenes -->
                 <!-- Tareas -->
-                <tr>
-                  <td>Ejercicios Fisica</td>
-                  <td class="responsive-1">Fisica</td>
-                  <td class="responsive-4">Tarea</td>
-                  <td>27/5/24</td>
-                </tr>
-                <tr>
-                  <td>Hoja de Ingles</td>
-                  <td class="responsive-1">Ingles</td>
-                  <td class="responsive-4">Tarea</td>
-                  <td>27/05/24</td>
-                </tr>
+                <td>Apunte</td>
+                <td class="responsive-1">Matematicas</td>
+                <td class="responsive-4">Tarea</td>
+                <td>28/5/24</td>
                 <!-- Proyectos -->
-                <tr>
-                  <td>Proyecto "Energia Mecanica"</td>
-                  <td class="responsive-1">Fisica</td>
-                  <td class="responsive-4">Proyecto</td>
-                  <td>27/5/24</td>
-                </tr>
                 <!-- Sin contenido -->
               </tbody>
             </table>
@@ -549,15 +483,12 @@
                 <li>20<br /><a href="#news">🛠️</a></li>
                 <li>21</li>
                 <li>22</li>
-                <li>
-                  23 <br />
-                  <a href="#news">📚📚🛠️</a>
-                </li>
+                <li>23 <br /><a href="#news">📚📚🛠️</a></li>
                 <li>24 <br /><a href="#news">📅</a></li>
                 <li>25</li>
-                <li>26<br />🌟</li>
+                <li>26</li>
                 <li>27 <br />🎂 <a href="#news">📚📚🛠️</a></li>
-                <li>28</li>
+                <li>28<br />🌟</li>
                 <li>29</li>
                 <li>30</li>
                 <li>31</li>
@@ -668,7 +599,7 @@
                 <div class="tags">
                   <span class="tag">443 412 8433</span>
                 </div>
-<!-- 
+                <!-- 
                 <p class="desc">No le gusta la hora libre😔</p> -->
               </div>
             </div>
@@ -680,7 +611,7 @@
           <h2>Torneos</h2>
 
           <div class="container">
-            <div class="card card-duo">
+            <!-- <div class="card card-duo">
               <h3>
                 <span>✨ ¡Únete al Desafío! ✨</span> <br />
                 <span class="duo-title">Duolingo</span>
@@ -712,15 +643,14 @@
                 <img src="./img/duolingo.svg" alt="Duolingo" /> Inscribirse al
                 Torneo <img src="./img/duolingo.svg" alt="Duolingo"
               /></a>
-            </div>
+            </div> -->
 
-            <!-- 
             <div class="card-aux">
               <h3>
                 Prepárate para el desafío lingüístico del mes: <br />¡El Torneo
                 de Duolingo está casi aquí!
               </h3>
-            </div> -->
+            </div>
 
             <div class="card">
               <h3>kahoot!</h3>
@@ -809,6 +739,9 @@
           : "fa-solid fa-bars";
       };
     </script>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
 
     <!-- mami soy tu vaquero, dime vaquero mami, mami soy tu vaquero --Genesis 1/5/24 -->
   </body>

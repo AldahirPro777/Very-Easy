@@ -489,7 +489,6 @@ body {
         }
 
         .btns {
-
             .container {
                 display: flex;
                 justify-content: space-evenly;
@@ -573,6 +572,10 @@ body {
 
                 ol {
                     margin-left: 15px;
+                }
+
+                ul {
+                    margin-left: 20px;
                 }
 
                 li {
@@ -980,12 +983,12 @@ body {
             margin-bottom: 50px;
         }
 
-        a{
+        a {
             animation: textBlink 1.5s infinite;
         }
 
         @keyframes shake {
-            100%{
+            100% {
                 rotate: 5px;
             }
         }

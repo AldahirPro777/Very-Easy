@@ -486,6 +486,9 @@ body p {
 #right #news .container .son-container ol {
   margin-left: 15px;
 }
+#right #news .container .son-container ul {
+  margin-left: 20px;
+}
 #right #news .container .son-container li {
   margin-bottom: 5px;
   margin-left: 17px;

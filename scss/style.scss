@@ -497,14 +497,15 @@ body {
                 button {
                     padding: 0.5rem 1rem;
                     border: none;
-                    background-color: #0074d9;
+                    background-color: #a88fb9;
                     color: white;
+                    border-radius: 10px;
                     cursor: pointer;
                     transition: all 400ms ease;
                 }
 
                 button:hover {
-                    background-color: #0056b3;
+                    background-color: #4d496c;
                     border-radius: 20px;
                     scale: 1.1;
                 }

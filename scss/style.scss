@@ -112,6 +112,27 @@ body {
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
         }
 
+        #quitar {
+            padding: 0.5rem 1rem;
+            margin: 30px;
+            border: none;
+            background-color: #a88fb9;
+            color: white;
+            cursor: pointer;
+            transition: all 400ms ease;
+        }
+
+        #quitar:hover {
+            background-color: #4d496c;
+            border-radius: 20px;
+            scale: 1.1;
+        }
+
+        #quitar:active {
+            transition: all 200ms ease;
+            scale: 0.9;
+        }
+
         h2 {
             color: #020202;
             margin: 0;
@@ -957,6 +978,26 @@ body {
 
         h2 {
             margin-bottom: 50px;
+        }
+
+        a{
+            animation: textBlink 1.5s infinite;
+        }
+
+        @keyframes shake {
+            100%{
+                rotate: 5px;
+            }
+        }
+
+        @keyframes textBlink {
+            0%,
+            100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.4;
+            }
         }
 
         .container {

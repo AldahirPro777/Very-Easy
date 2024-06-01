@@ -549,7 +549,7 @@ body {
                 flex-direction: column;
                 gap: 12px;
                 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-                transition: all 600ms ease;
+                transition: all 400ms ease;
 
                 h3 {
                     font-size: 22px;
@@ -603,7 +603,7 @@ body {
             }
 
             .son-container:not(:hover) {
-                filter: opacity(80%);
+                filter: opacity(95%);
             }
 
             .card{

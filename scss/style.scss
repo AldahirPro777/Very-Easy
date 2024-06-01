@@ -200,7 +200,7 @@ body {
             }
         }
 
-        .new {
+        .new-left {
             .card {
                 display: flex;
                 justify-content: center;
@@ -526,7 +526,7 @@ body {
     position: absolute;
 
     /* Noticias Recientes */
-    #news {
+    #news-main {
         @include medidas();
 
         .container {

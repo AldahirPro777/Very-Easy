@@ -1,0 +1,98 @@
+
+
+
+Menu adentro de un menu;Extras:
+-Torneos
+-Galeria
+-Frase de la semana
+-foro
+-Otros
+
+
+
+foro:
+Promover sugerencias y opiniones
+
+
+
+Informacion de docentes:
+  -Nombre completo
+  -Asignatura
+  -Contacto
+  -Tareas relacionadas
+  -Descripcion
+
+
+
+Torneo de duolingo:
+Alentar a la maestra a dar puntos para los primeros lugares
+
+
+
+Fondos:
+Poner imagnes que combinen con los colores del fondo
+
+
+
+En el apartado de redes:
+En numero de telefono hacer que se copie cunado le piques
+
+
+
+Retos:
+Retos Ecológicos:
+
+Reto de Reciclaje: Organiza una competencia para ver qué clase puede recoger más material reciclable en una semana.
+Desafío Sin Plástico: Anima a los estudiantes a evitar el uso de plásticos de un solo uso durante un mes.
+Concurso de Jardinería: Invita a los estudiantes a crear su propio jardín en casa y compartir el progreso.
+Retos Matemáticos:
+
+Maratón de Problemas: Publica un problema matemático diario o semanal y premia a quienes envíen las soluciones correctas.
+Caza del Tesoro Matemática: Crea una caza del tesoro en la escuela donde cada pista requiere resolver un problema matemático.
+Desafío de Lógica: Propone rompecabezas lógicos o acertijos que los estudiantes puedan resolver.
+Retos Literarios:
+
+Concurso de Microrrelatos: Pide a los estudiantes que escriban historias cortas de no más de 100 palabras.
+Reto de Poesía: Organiza un concurso de poesía con diferentes temas cada mes.
+Desafío de Lectura: Establece una lista de libros para leer durante el año y discute sobre ellos.
+Retos de Salud y Bienestar:
+
+Reto de Ejercicio: Establece un desafío de 30 días con diferentes actividades físicas.
+Desafío de Meditación: Inicia un reto de meditación diaria y comparte experiencias.
+Concurso de Recetas Saludables: Invita a los estudiantes a enviar sus recetas saludables favoritas.
+Retos Artísticos:
+
+Desafío de Dibujo: Propone un tema semanal para que los estudiantes presenten sus dibujos.
+Reto de Música: Anima a los estudiantes a aprender y compartir una nueva pieza musical.
+Concurso de Fotografía de la Naturaleza: Fomenta la apreciación por la naturaleza a través de la fotografía.
+Retos de Ciencia y Tecnología:
+
+Desafío de Inventos: Motiva a los estudiantes a crear un invento con materiales reciclados.
+Reto de Programación: Organiza competencias de codificación con problemas para resolver.
+Concurso de Experimentos Caseros: Anima a los estudiantes a realizar y documentar experimentos científicos seguros en casa.
+
+Retos de Innovación y Creatividad:
+
+Inventa Algo Nuevo: Desafía a los estudiantes a diseñar un producto o servicio que solucione un problema común en la escuela.
+Reto de Diseño: Organiza un concurso de diseño gráfico para crear el próximo logo o mascota de la escuela.
+Construye y Comparte: Anima a los estudiantes a construir modelos o prototipos utilizando materiales reciclados y compartir sus creaciones.
+Retos de Investigación y Conocimiento:
+
+Cazadores de Mitos: Invita a los estudiantes a investigar y desmentir un mito popular o una leyenda urbana.
+Explora y Explica: Establece un reto donde los estudiantes deben explorar un tema desconocido y presentar sus hallazgos.
+Reto de Historia Viva: Anima a los estudiantes a recrear un evento histórico y explicar su importancia.
+Retos de Comunidad y Servicio:
+
+Ayuda a tu Comunidad: Crea un desafío de servicio comunitario donde los estudiantes se involucren en proyectos de voluntariado.
+Reto de Bondad: Establece un reto para realizar actos de bondad al azar y compartir las experiencias.
+Conecta y Colabora: Fomenta la colaboración entre estudiantes para resolver un problema comunitario.
+Retos de Habilidades de Vida:
+
+Maestro de la Supervivencia: Enseña habilidades básicas de supervivencia y organiza un reto para ponerlas a prueba.
+Reto de Cocina: Desafía a los estudiantes a preparar un plato con un conjunto limitado de ingredientes.
+Habilidades para la Vida: Organiza talleres sobre habilidades prácticas como la reparación básica, la costura o la gestión financiera.
+Retos Globales:
+
+Conciencia Global: Crea retos que aumenten la conciencia sobre problemas globales como el cambio climático o la igualdad.
+Reto de Idiomas: Desafía a los estudiantes a aprender frases básicas en un nuevo idioma.
+Embajadores del Mundo: Anima a los estudiantes a presentar sobre diferentes culturas y países.

@@ -606,6 +606,10 @@ body {
                 filter: opacity(80%);
             }
 
+            .card{
+                text-align: center;
+            }
+
             .card-news {
                 display: flex;
                 justify-content: center;
@@ -692,6 +696,14 @@ body {
                     }
                 }*/
             }
+
+            .pin{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: 0;
+                left: 45%;
+            }
         }
     }
 
@@ -702,6 +714,10 @@ body {
         h2 {
             margin: 30px;
             text-align: center;
+        }
+
+        table{
+            margin: 0 10px;
         }
 
         thead {
@@ -768,7 +784,7 @@ body {
                 border-radius: 30px;
 
                 h3 {
-                    margin: 40px 0;
+                    margin-bottom: 20px;
                     font-size: 32px;
                 }
 
@@ -791,7 +807,7 @@ body {
                 }
 
                 .firts-day {
-                    grid-column-start: 4;
+                    grid-column-start: 7;
                 }
 
                 .day-name {

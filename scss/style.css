@@ -511,6 +511,9 @@ body p {
 #right #news .container .son-container:not(:hover) {
   filter: opacity(80%);
 }
+#right #news .container .card {
+  text-align: center;
+}
 #right #news .container .card-news {
   display: flex;
   justify-content: center;
@@ -595,6 +598,13 @@ body p {
   justify-content: center;
   letter-spacing: 1px;
 }
+#right #news .container .pin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 45%;
+}
 #right #pendientes {
   display: flex;
   justify-content: center;
@@ -605,6 +615,9 @@ body p {
 #right #pendientes h2 {
   margin: 30px;
   text-align: center;
+}
+#right #pendientes table {
+  margin: 0 10px;
 }
 #right #pendientes thead {
   background-color: #ff99c8;
@@ -663,7 +676,7 @@ body p {
   border-radius: 30px;
 }
 #right #calendario .container .tabla h3 {
-  margin: 40px 0;
+  margin-bottom: 20px;
   font-size: 32px;
 }
 #right #calendario .container .tabla ol {
@@ -681,7 +694,7 @@ body p {
   background-color: #eee;
 }
 #right #calendario .container .tabla .firts-day {
-  grid-column-start: 4;
+  grid-column-start: 7;
 }
 #right #calendario .container .tabla .day-name {
   background-color: #eee;

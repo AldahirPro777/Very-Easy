@@ -8,6 +8,7 @@ header{
     z-index: 7;
     backdrop-filter: blur(30px);
     box-shadow: 5px 5px 5px rgb(0, 0, 0,0.1);
+    display: flex;
 }
 
 header .navbar li{

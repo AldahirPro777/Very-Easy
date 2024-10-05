@@ -29,6 +29,7 @@ body {
   background: linear-gradient(90deg, #c8b6ff, #ffd6ff);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 100vw;
 
   h2 {
     color: map-get($colores, color-h2);

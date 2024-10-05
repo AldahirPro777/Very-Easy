@@ -12,6 +12,7 @@ body {
   background: linear-gradient(90deg, #c8b6ff, #ffd6ff);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 100vw;
 }
 body h2 {
   color: #312244;
